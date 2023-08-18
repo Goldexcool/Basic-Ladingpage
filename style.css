@@ -108,6 +108,10 @@ a{
     align-items: center;
     column-gap: 12px;
 }
+a:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.473);
+}
 button{
     display: flex;
     align-items: center;
@@ -120,6 +124,9 @@ button{
     color: var(--Verypaleblue);
     margin-bottom: 10px;
 }
+button:hover{
+    background-color: rgba(0, 0, 255, 0.473);
+}
 .but{
     font-size: 12px;
     font-weight: bold;
@@ -128,6 +135,9 @@ button{
     color: var(--Desaturatedblue);
     font-weight: bold;
     font-size: 15px;
+}
+.cancel:hover{
+    color: var(--VeryPaleblue);
 }
 @media screen and (max-width:320px) {
     body{
